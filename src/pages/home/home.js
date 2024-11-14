@@ -27,7 +27,7 @@ const home = () => {
         </p>
         <p>Selamat berkunjung</p>
         <p>Terima kasih atas kepercayaan anda.</p>
-        <div>
+        <div classname="tengah">
           <h1>temui kami di:</h1>
           <div>
             <iframe title="map"
