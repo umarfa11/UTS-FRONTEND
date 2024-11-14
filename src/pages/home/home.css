@@ -1,0 +1,99 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+  }
+  
+  /* Container for the home page */
+  div {
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the content */
+  }
+  
+  /* Centered text section */
+  .tengah {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f20099, #f20099); /* Gradient background */
+    color: white; /* White text for contrast */
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 3rem;
+  }
+  
+  /* Headings */
+  .tengah h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  /* Paragraphs */
+  .tengah p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+  }
+  
+  /* Links Styling */
+  .tengah a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .tengah a:hover {
+    color: #f6b93b; /* Change link color on hover */
+  }
+  
+  /* Icon Styling */
+  .icon {
+    font-size: 1rem; /* Default icon size */
+    color: #fff; /* Default white icon color */
+    margin: 0.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); /* Slight scale on hover */
+    color: #f6b93b; /* Change icon color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .tengah h1 {
+      font-size: 2.2rem; /* Reduce font size for smaller screens */
+    }
+  
+    .tengah p {
+      font-size: 1rem;
+    }
+  
+    .tengah {
+      padding: 3rem 1rem;
+    }
+  
+    .icon {
+      font-size: 1.5rem; /* Smaller icons on smaller screens */
+    }
+  }
+  
+  /* Responsively align the Foto images */
+  @media (max-width: 480px) {
+    .image-gallery {
+      grid-template-columns: 1fr; /* Single column layout on small screens */
+      padding: 1rem;
+    }
+  }
+  
